@@ -1,5 +1,5 @@
-#closline
-##a small python script for google's closure compiler
+##closline
+####a small python script for google's closure compiler
 
 ###usage
     python closline.py [-s -a -w] [-q -d -v] script.js
