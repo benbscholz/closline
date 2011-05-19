@@ -5,7 +5,7 @@
     python closline.py [-s -a -w] [-q -d -v] script.js
     
 ####example
-    python closline -w -q script.js
+    python closline.py -w -q script.js
 ####file output
     script.min.js
     
