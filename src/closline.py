@@ -52,7 +52,7 @@ elif options.optimize == "whitespace":
     print "Compiling Javascript without whitespace...\n"
 else:
     optimize_level = "SIMPLE_OPTIMIZATIONS"
-    print "Compiling Javascrip with simple optimizations...\n"
+    print "Compiling Javascript with simple optimizations...\n"
 
 # set the warning type according to the parsed options
 if options.warning == "verbose":
