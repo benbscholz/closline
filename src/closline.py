@@ -111,7 +111,7 @@ print stats
 connect.close()
 
 if len(output) == 1:
-    print "Code compiled to nothing! Try using exports."
+    print "Code compiled to nothing! There may be an error."
 else:
     print "Complete."
 
