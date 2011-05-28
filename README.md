@@ -1,6 +1,12 @@
 #closline
 ###a small python script for google's closure compiler
 
+###quick start
+    chmod 755 src/closline.py
+    ./closline.py script.js
+Output file:
+    script.min.js
+
 ###usage
     python closline.py [-s -a -w] [-q -d -v] script.js
     
