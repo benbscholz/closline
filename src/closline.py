@@ -23,6 +23,7 @@
 from httplib import HTTPConnection
 from urllib import urlencode
 from sys import argv
+from sys import exit
 from optparse import OptionParser
 
 # parse command line options
@@ -42,6 +43,11 @@ parser.add_option("-v", action="store_const", const="verbose", dest="warning")
 parser.add_option("-p", action="store_true", dest="pprint")
 
 (options, args) = parser.parse_args()
+
+# check for filename argument
+if len(args) == 0:
+    print "Missing argument."
+    exit()
 
 # set the optimization type according to the parsed options
 if options.optimize == "advanced":
